@@ -997,7 +997,7 @@
     <string name="msg_kc_master_bad_type">"Removing master key certificate of unknown type (%s)"</string>
     <string name="msg_kc_master_bad_local">"Removing master key certificate with 'local' flag"</string>
     <string name="msg_kc_master_bad_err">"Removing bad master key certificate"</string>
-    <string name="msg_kc_master_bad_time">"Removing keyring revocation certificate with future timestamp"</string>
+    <string name="msg_kc_master_bad_time">"Removing keyring revocation certificate with future effectiveDate"</string>
     <string name="msg_kc_master_bad_type_uid">"Removing user ID certificate in bad position"</string>
     <string name="msg_kc_master_bad">"Removing bad master key certificate"</string>
     <string name="msg_kc_master_local">"Removing master key certificate with 'local' flag"</string>
@@ -1009,8 +1009,8 @@
     <string name="msg_kc_sub_bad_err">"Removing bad subkey binding certificate"</string>
     <string name="msg_kc_sub_bad_local">"Removing subkey binding certificate with 'local' flag"</string>
     <string name="msg_kc_sub_bad_keyid">"Subkey binding issuer id mismatch"</string>
-    <string name="msg_kc_sub_bad_time">"Removing subkey binding certificate with future timestamp"</string>
-    <string name="msg_kc_sub_bad_time_early">"Subkey binding certificate has earlier timestamp than its key!"</string>
+    <string name="msg_kc_sub_bad_time">"Removing subkey binding certificate with future effectiveDate"</string>
+    <string name="msg_kc_sub_bad_time_early">"Subkey binding certificate has earlier effectiveDate than its key!"</string>
     <string name="msg_kc_sub_bad_type">"Unknown subkey certificate type: %s"</string>
     <string name="msg_kc_sub_dup">"Removing redundant subkey binding certificate"</string>
     <string name="msg_kc_sub_primary_bad">"Removing subkey binding certificate due to invalid primary binding certificate"</string>
@@ -1035,7 +1035,7 @@
     </plurals>
     <string name="msg_kc_uid_bad_err">"Removing bad self certificate for user ID '%s'"</string>
     <string name="msg_kc_uid_bad_local">"Removing user ID certificate with 'local' flag"</string>
-    <string name="msg_kc_uid_bad_time">"Removing user ID with future timestamp"</string>
+    <string name="msg_kc_uid_bad_time">"Removing user ID with future effectiveDate"</string>
     <string name="msg_kc_uid_bad_type">"Removing user ID certificate of unknown type (%s)"</string>
     <string name="msg_kc_uid_bad">"Removing bad self certificate for user ID '%s'"</string>
     <string name="msg_kc_uid_cert_dup">"Removing outdated self certificate for user ID '%s'"</string>
@@ -1051,7 +1051,7 @@
     <string name="msg_kc_uat_unknown">"Processing user attribute of unknown type"</string>
     <string name="msg_kc_uat_bad_err">"Removing bad self certificate for user attribute"</string>
     <string name="msg_kc_uat_bad_local">"Removing user attribute certificate with 'local' flag"</string>
-    <string name="msg_kc_uat_bad_time">"Removing user attribute with future timestamp"</string>
+    <string name="msg_kc_uat_bad_time">"Removing user attribute with future effectiveDate"</string>
     <string name="msg_kc_uat_bad_type">"Removing user attribute certificate of unknown type (%s)"</string>
     <string name="msg_kc_uat_bad">"Removing bad self certificate for user attribute"</string>
     <string name="msg_kc_uat_cert_dup">"Removing outdated self certificate for user attribute"</string>
