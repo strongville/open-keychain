@@ -124,6 +124,10 @@ public class AutocryptPeerDataAccessObject {
         updateAutocryptState(autocryptId, effectiveDate, null, ApiAutocryptPeer.RESET);
     }
 
+    public void updateToSelectedState(String autocryptId, long masterKeyId) {
+        updateAutocryptState(autocryptId, new Date(), masterKeyId, ApiAutocryptPeer.SELECTED);
+    }
+
     public void updateToGossipState(String autocryptId, Date effectiveDate, long masterKeyId) {
         updateAutocryptState(autocryptId, effectiveDate, masterKeyId, ApiAutocryptPeer.GOSSIP);
     }
