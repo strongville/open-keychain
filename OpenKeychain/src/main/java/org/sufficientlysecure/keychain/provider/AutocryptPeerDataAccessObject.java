@@ -150,4 +150,8 @@ public class AutocryptPeerDataAccessObject {
         cv.put(ApiAutocryptPeer.STATE, status);
         mQueryInterface.update(ApiAutocryptPeer.buildByPackageNameAndAutocryptId(packageName, autocryptId), cv, null, null);
     }
+
+    public void delete(String autocryptId) {
+        mQueryInterface.delete(ApiAutocryptPeer.buildByPackageNameAndAutocryptId(packageName, autocryptId), null, null);
+    }
 }
